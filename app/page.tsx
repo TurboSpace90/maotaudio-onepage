@@ -42,6 +42,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       <div className="mx-auto flex min-h-screen w-full max-w-[1500px] flex-col px-6 sm:px-10 lg:px-16 xl:px-20">
+
         {/* HEADER */}
         <header className="flex h-[86px] flex-none items-center justify-between border-b border-[#eeeeee]">
           <Image
@@ -54,13 +55,11 @@ export default function Home() {
           />
 
           <div className="flex items-center gap-4 sm:gap-6">
-            {/* TELEGRAM */}
             <a
               href="https://t.me/a_leshalesha"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Telegram"
-              title="Telegram @a_leshalesha"
               className="flex items-center gap-2 text-[#3e3a39] transition-colors duration-200 hover:text-[#ff6900]"
             >
               <TelegramIcon />
@@ -72,13 +71,11 @@ export default function Home() {
 
             <span className="h-[16px] w-px bg-[#e5e5e5]" />
 
-            {/* INSTAGRAM */}
             <a
               href="https://www.instagram.com/maot_audio?stkn=bmM4ZjU1YWR0dnhm"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              title="Instagram @maot_audio"
               className="flex items-center gap-2 text-[#3e3a39] transition-colors duration-200 hover:text-[#ff6900]"
             >
               <InstagramIcon />
@@ -90,7 +87,6 @@ export default function Home() {
 
             <span className="hidden h-[16px] w-px bg-[#e5e5e5] sm:block" />
 
-            {/* PHONE */}
             <a
               href="tel:+79264918988"
               className="hidden text-[11px] font-bold tracking-[0.08em] text-[#3e3a39] transition-colors duration-200 hover:text-[#ff6900] sm:block"
@@ -102,6 +98,7 @@ export default function Home() {
 
         {/* HERO */}
         <section className="grid flex-1 items-center py-7 lg:grid-cols-[0.9fr_1.1fr] lg:gap-8 lg:py-0">
+
           {/* LEFT */}
           <div className="relative z-10">
             <div className="mb-6 flex items-center gap-3">
@@ -123,14 +120,20 @@ export default function Home() {
             </h1>
 
             {/* DESCRIPTION */}
-            <p className="mt-7 max-w-[540px] text-[14px] leading-6 text-[#777777] sm:text-[15px]">
-              Готовые аудиосистемы MAOT для установки в штатные
-              места автомобиля. Доставим по всей России. Установим
-              в Москве.
-            </p>
+            <div className="mt-7 max-w-[570px] text-[14px] leading-6 text-[#777777] sm:text-[15px]">
+              <p>
+                Аудиоситема MAOT - готовое решение для установки в штатные места с сохранением заводской проводки и креплений в
+                BMW, Mercedes, Li, Zeekr и Audi.
+              </p>
+
+              <p className="mt-2">
+                Осуществляем доставку по всей России. Предоставляем услуги
+                установки в Москве.
+              </p>
+            </div>
 
             {/* BUTTON */}
-            <div className="mt-8">
+            <div className="mt-7">
               <a
                 href="tel:+79264918988"
                 className="group inline-flex h-[52px] items-center gap-7 rounded-full bg-[#ff6900] px-7 text-[10px] font-bold uppercase tracking-[0.1em] text-white transition-all duration-300 hover:-translate-y-[2px] hover:shadow-[0_12px_30px_rgba(255,105,0,0.22)]"
@@ -144,11 +147,31 @@ export default function Home() {
             </div>
           </div>
 
-          {/* PRODUCT */}
-          <div className="relative flex min-h-[380px] items-center justify-center lg:h-full lg:min-h-0">
+          {/* RIGHT / PRODUCT */}
+          <div className="relative flex min-h-[430px] flex-col items-center justify-center lg:h-full lg:min-h-0">
+
+            {/* LARGE PRODUCT TITLE */}
+            <div className="relative z-10 mb-1 w-full text-center lg:absolute lg:left-0 lg:top-[8%]">
+              <p className="text-[18px] font-black uppercase leading-[1.15] tracking-[-0.02em] sm:text-[22px] lg:text-[25px] xl:text-[29px]">
+                <span className="text-[#3e3a39]">
+                  Эксклюзивная
+                </span>
+                <br />
+                <span className="text-[#ff6900]">
+                  Plug & Play система
+                </span>
+                <br />
+                <span className="text-[#3e3a39]">
+                  улучшения звука
+                </span>
+              </p>
+            </div>
+
+            {/* BACKGROUND GLOW */}
             <div className="pointer-events-none absolute left-1/2 top-1/2 h-[520px] w-[520px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(255,105,0,0.045)_0%,rgba(255,255,255,0)_68%)]" />
 
-            <div className="relative h-[390px] w-full sm:h-[470px] lg:h-[520px] xl:h-[590px]">
+            {/* PRODUCT IMAGE */}
+            <div className="relative mt-12 h-[390px] w-full sm:h-[470px] lg:mt-10 lg:h-[520px] xl:h-[590px]">
               <Image
                 src="/images/maot-kit.png"
                 alt="Автомобильная аудиосистема MAOT с усилителем"
