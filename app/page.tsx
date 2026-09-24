@@ -109,12 +109,12 @@ export default function Home() {
             </div>
 
             <h1 className="text-[46px] font-black uppercase leading-[0.88] tracking-[-0.055em] text-[#3e3a39] min-[390px]:text-[50px] sm:text-[68px] lg:max-w-[680px] lg:text-[76px] xl:text-[88px]">
-              Услышь
+              `Когда звучание`
               <br />
-              автомобиль
+              становится
               <br />
               <span className="text-[#ff6900]">
-                по-новому.
+                впечатлением.
               </span>
             </h1>
 
@@ -153,11 +153,11 @@ export default function Home() {
             {/* PRODUCT TITLE */}
             <div className="relative z-10 w-full text-center lg:absolute lg:left-0 lg:top-[8%]">
               <p className="font-black uppercase leading-[1.08] tracking-[-0.025em]">
-                <span className="block text-[20px] text-[#ff6900] sm:text-[22px] lg:text-[25px] xl:text-[29px]">
+                <span className="block text-[20px] text-[#3e3a39] sm:text-[22px] lg:text-[25px] xl:text-[29px]">
                   Эксклюзивная
                 </span>
 
-                <span className="mt-1 block text-[23px] text-[#3e3a39] sm:text-[25px] lg:text-[25px] xl:text-[29px]">
+                <span className="mt-1 block text-[23px] text-[#ff6900] sm:text-[25px] lg:text-[25px] xl:text-[29px]">
                   Plug & Play система
                 </span>
 
