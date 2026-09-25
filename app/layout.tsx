@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "MAOT Audio",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "MAOT Audio — автомобильные аудиосистемы",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "MAOT Audio — автомобильные аудиосистемы",
     description:
       "Plug & Play аудиосистемы для BMW, Mercedes, Li, Zeekr и Audi.",
-    images: ["/og-image.png"],
+    images: ["/og-image.jpg"],
   },
 };
 
