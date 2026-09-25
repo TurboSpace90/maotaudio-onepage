@@ -109,7 +109,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-[46px] font-black uppercase leading-[0.88] tracking-[-0.055em] text-[#3e3a39] min-[390px]:text-[50px] sm:text-[68px] lg:max-w-[680px] lg:text-[76px] xl:text-[88px]">
-              `Когда звучание`
+              Когда звучание
               <br />
               становится
               <br />
