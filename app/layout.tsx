@@ -4,34 +4,42 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://maotaudio.ru"),
 
-  title: "MAOT Audio — автомобильные аудиосистемы",
+  title:
+    "MAOT — автомобильные аудиосистемы для BMW и других марок",
 
   description:
-    "Автомобильные аудиосистемы MAOT. Установка в Москве. Доставка по всей России.",
+    "Аудиосистемы MAOT для установки в штатные места с сохранением заводской проводки и креплений. BMW, Mercedes, Li Auto, Zeekr и Audi. Доставка по России, установка в Москве.",
+
+  alternates: {
+    canonical: "/",
+  },
 
   openGraph: {
-    title: "MAOT Audio — автомобильные аудиосистемы",
+    title: "MAOT — автомобильные аудиосистемы",
     description:
-      "Plug & Play аудиосистемы для BMW, Mercedes, Li, Zeekr и Audi.",
-    url: "https://maotaudio.ru",
+      "Аудиосистемы MAOT для BMW, Mercedes, Li Auto, Zeekr и Audi. Доставка по России, установка в Москве.",
+
+    url: "https://maotaudio.ru/",
     siteName: "MAOT Audio",
+
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "MAOT Audio — автомобильные аудиосистемы",
+        alt: "MAOT — автомобильные аудиосистемы",
       },
     ],
+
     locale: "ru_RU",
     type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "MAOT Audio — автомобильные аудиосистемы",
+    title: "MAOT — автомобильные аудиосистемы",
     description:
-      "Plug & Play аудиосистемы для BMW, Mercedes, Li, Zeekr и Audi.",
+      "Аудиосистемы MAOT для установки в штатные места автомобиля.",
     images: ["/og-image.jpg"],
   },
 };

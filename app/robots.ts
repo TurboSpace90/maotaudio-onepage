@@ -7,6 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    sitemap: "https://maot-audio.ru/sitemap.xml",
+    sitemap: "https://maotaudio.ru/sitemap.xml",
+    host: "https://maotaudio.ru",
   };
 }
