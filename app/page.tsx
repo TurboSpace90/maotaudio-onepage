@@ -1,5 +1,4 @@
 import Image from "next/image";
-import BmwSeoSection from "../components/BmwSeoSection";
 function TelegramIcon() {
   return (
     <svg
@@ -195,7 +194,7 @@ export default function Home() {
              </section>
       </div>
 
-      <BmwSeoSection />
+    
 
     </main>
   );
